@@ -9,7 +9,7 @@ version = "0.0.0-2"
 edition = "2024"
 authors = ["SourceTrait <development@sourcetrait.com"]
 license = "AGPL-3.0-or-later"
-repository = "https://github.com/sourcetrait/sourcetrait_common_mono"
+repository = "https://github.com/sourcetrait/common_mono"
 homepage = "https://sourcetrait.com"
 categories = []
 keywords = ["sourcetrait", "common"]
@@ -25,8 +25,8 @@ windows-sys = { version = ">= 0.59, <=0.61", features = [
     "Win32_Security_Authorization",
 ]}
 
-sourcetrait_agnostic_bridge = { path = "../../sourcetrait_common/crates/sourcetrait_agnostic_bridge" }
-sourcetrait_agnostic_unix = { path = "../../sourcetrait_common_mono/unix/crates/sourcetrait_agnostic_unix" }
-sourcetrait_stdx = { path = "../../sourcetrait_common/crates/sourcetrait_stdx"  }
-sourcetrait_testing = { path = "../../sourcetrait_common/crates/sourcetrait_testing" }
-sourcetrait_twostr = { path = "../../sourcetrait_common/crates/sourcetrait_twostr" }
+sourcetrait_agnostic_bridge = { path = "../../common/crates/sourcetrait_agnostic_bridge" }
+sourcetrait_agnostic_unix = { path = "../../common_mono/unix/crates/sourcetrait_agnostic_unix" }
+sourcetrait_stdx = { path = "../../common/crates/sourcetrait_stdx"  }
+sourcetrait_testing = { path = "../../common/crates/sourcetrait_testing" }
+sourcetrait_twostr = { path = "../../common/crates/sourcetrait_twostr" }

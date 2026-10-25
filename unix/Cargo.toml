@@ -9,7 +9,7 @@ version = "0.0.0-2"
 edition = "2024"
 authors = ["SourceTrait <development@sourcetrait.com"]
 license = "AGPL-3.0-or-later"
-repository = "https://github.com/sourcetrait/sourcetrait_common_mono"
+repository = "https://github.com/sourcetrait/common_mono"
 homepage = "https://sourcetrait.com"
 categories = []
 keywords = ["sourcetrait", "common"]
@@ -20,7 +20,7 @@ libc = "0.2"
 snafu = "0.8"
 strum = { version = "0.27", features = ["derive"] }
 
-sourcetrait_stdx              = { path = "../../sourcetrait_common/crates/sourcetrait_stdx",            version = "0.0.0-2" }
-sourcetrait_agnostic_bridge   = { path = "../../sourcetrait_common/crates/sourcetrait_agnostic_bridge", version = "0.0.0-2" }
-sourcetrait_testing           = { path = "../../sourcetrait_common/crates/sourcetrait_testing",         version = "0.0.0-2" }
-sourcetrait_twostr            = { path = "../../sourcetrait_common/crates/sourcetrait_twostr",          version = "0.0.0-2" }
+sourcetrait_stdx              = { path = "../../common/crates/sourcetrait_stdx",            version = "0.0.0-2" }
+sourcetrait_agnostic_bridge   = { path = "../../common/crates/sourcetrait_agnostic_bridge", version = "0.0.0-2" }
+sourcetrait_testing           = { path = "../../common/crates/sourcetrait_testing",         version = "0.0.0-2" }
+sourcetrait_twostr            = { path = "../../common/crates/sourcetrait_twostr",          version = "0.0.0-2" }
