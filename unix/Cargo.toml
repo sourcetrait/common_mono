@@ -2,6 +2,7 @@
 resolver = "3"
 members = [
     "crates/sourcetrait_agnostic_unix",
+    "crates/sourcetrait_process",
 ]
 
 [workspace.package]

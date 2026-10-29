@@ -1,0 +1,17 @@
+[package]
+name = "sourcetrait_process"
+description = "The host's process table: each process's parent, state, name, and start time"
+version.workspace    = true
+authors.workspace    = true
+license.workspace    = true
+edition.workspace    = true
+repository.workspace = true
+homepage.workspace   = true
+categories.workspace = true
+keywords.workspace   = true
+
+[target.'cfg(target_os = "macos")'.dependencies]
+libc.workspace = true
+
+[package.metadata]
+rein = "ai"
